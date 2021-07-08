@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "linebot-app3"
+stack_name = "habit-linebot4"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1gxxanh4gcyrc"
-s3_prefix = "linebot-app3"
+s3_prefix = "habit-linebot4"
 region = "ap-northeast-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "LineChannelAccessToken=\"HDJnoU7kav57kpK2pPvU8X2gUseop97xMiUnEcQxCW2Zea94IjfgS+UHouc3xWJDtgqFDQ5POXEW6eAMi/e71ZjOenF+BoD8Iy1vUectIAFnDGT+wradpDvhuvIlFcZCbhnORoBiaQoiUXIWM3IvMAdB04t89/1O/w1cDnyilFU=\" LineChannelSecret=\"79031942f2619fed2e3f81d380f81905\""
