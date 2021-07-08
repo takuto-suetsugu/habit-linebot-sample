@@ -33,9 +33,7 @@ def handle_text_message(event):
     """ TextMessage handler """
     input_text = event.message.text
 
-    line_bot_api.reply_message
-    (
+    line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text='目標を「input_text」に設定しました。')
-    )
+        TextSendMessage(text=input_text))
 
