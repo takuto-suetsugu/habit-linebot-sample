@@ -20,10 +20,6 @@
           "API": {
             "Type": "Api",
             "Properties": {"Path": "/api_endpoint", "Method": "post"}
-          },
-          "Upload_S3":{
-            "Type": "S3",
-            "Properties": {"Bucket": "my-photo-bucket", "Events": "s3:ObjectCreated:*"}
           }
         }
       }
